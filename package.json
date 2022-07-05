@@ -1,0 +1,25 @@
+{
+  "name": "DJACKIT",
+  "version": "1.0.0",
+  "description": "DJACKIT",
+  "author": "Jeany de Vries",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "prestart": "npm run build",
+    "start": "node app.js",
+    "test": "nodemon app.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.3",
+    "express-ejs-layouts": "^2.5.1",
+    "node": "^17.7.1",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.18"
+  }
+}
