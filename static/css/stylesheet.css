@@ -21,6 +21,10 @@ body {
     font-family: 'Kanit', sans-serif;
     color: var(--white);
     background: var(--dark);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
 }
 
 main{
@@ -126,7 +130,7 @@ button:hover {
 .intro{
     display: flex;
     align-items: flex-start;
-    margin-top: 7em;
+    margin-top: 3em;
 }
 
 .introText{
@@ -189,7 +193,7 @@ button:hover {
 footer{
     width: 100%;
     height: fit-content;
-    position: relative;
+    /* position: fixed; */
     left: 0;
     bottom: 0px;
     background-color: rgb(22 22 22);
